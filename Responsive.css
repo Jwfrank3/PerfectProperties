@@ -357,27 +357,36 @@ html, body {
    background-size: cover;
    list-style-type: none;
    filter: brightness(75%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 #nav-links {
   margin: auto;
   align-items: center;
-  list-style-type: none;
+  list-style-type: none; 
 }
 
 li {
-  grid-row-start: 2;
-  grid-row-end: 4;
   font-family: Montserrat;
   font-weight: 600;
 	font-size: 12.3px;
-  display: flexbox;
-  justify-items: center;
 }
 
+li a {
+  display: none;
+}
+
+li img {
+  
+}
+
+/*
 nav a {
   display: none;
 }
+*/
 
 a {
 	color: rgb(255, 255, 255);
@@ -398,8 +407,7 @@ section {
 	background-image: url(Cream_Floral_Background.jpg);
 	background-size: cover;
 	width: 100%;
-  height: 100%;
-	display: flex;
+  height: 600px;
 	justify-content: center;
   line-height: 240%;
 }
@@ -424,7 +432,7 @@ div h1 {
 	position: relative;
 	top: 22.5%;
   line-height: 141%;
-  margin: 0 1%;
+  margin: 0 auto;
 }
 
 .box1 {
@@ -444,9 +452,9 @@ div h1 {
 
 #search {
 	position: absolute;
-	top: 410px;
+	top: 413px;
 	left: 10%;
-	z-index: 1;
+  z-index: 1;
 	background-color: #fff;
 	border: 1px solid #ccc;
 	padding: 5px 10px;
@@ -454,7 +462,7 @@ div h1 {
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 	width: 80.5%;
   max-width: 80%;
-	height: 10%;
+	height: 60px;
 }
 
 input::placeholder {
