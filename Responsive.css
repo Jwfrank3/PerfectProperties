@@ -452,15 +452,12 @@ div h1 {
 
 #search {
 	position: absolute;
-<<<<<<< HEAD
 	top: 413px;
 	left: 10%;
   z-index: 1;
-=======
 	top: 410px;
 	left: 10%;
 	z-index: 1;
->>>>>>> refs/remotes/origin/main
 	background-color: #fff;
 	border: 1px solid #ccc;
 	padding: 5px 10px;
