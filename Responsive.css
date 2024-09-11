@@ -548,7 +548,7 @@ footer p {
   background-color: #CFD8DC;
 }
 
-#menu__toggle:checked ~ body > main > div > p {
+#menu__toggle:checked body > main > div > p {
   background-color: pink;
   display: none;
 }
