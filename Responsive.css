@@ -517,7 +517,7 @@ footer p {
   content: '';
   top: 8px;
 }
- #menu__box {
+ .menu__box {
     display: block;
     position: fixed;
     top: 80px;
