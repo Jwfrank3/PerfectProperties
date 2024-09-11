@@ -549,7 +549,7 @@ footer p {
 }
 
 #menu__toggle:checked {
-  #paragraph {
+ & #paragraph {
 background-color: pink;
   display: none;
  }
