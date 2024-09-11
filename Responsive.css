@@ -548,4 +548,8 @@ footer p {
   background-color: #CFD8DC;
 }
 
+#menu__toggle:checked ~ #paragraph {
+  display: none;
+}
+
 }
