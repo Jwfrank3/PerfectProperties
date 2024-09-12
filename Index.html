@@ -28,28 +28,31 @@
   </head>
   <header>
     <nav>
-      <ul id="nav-links">
-        <li><a href="#">Search</a></li>
-        <li><a href="#">Saved</a></li>
-        <li><a href="#">Compare</a></li>
-        <li><a href="#">Settings</a></li>
-        <li><a href="#" id="sign-in">Sign In</a></li>
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <ul id="menu__box">
+        <li><a class="menu__item" href="#">Search</a></li>
+        <li><a class="menu__item" href="#">Saved</a></li>
+        <li><a class="menu__item" href="#">Compare</a></li>
+        <li><a class="menu__item" href="#">Settings</a></li>
+        <li><a class="menu__item" href="#" id="sign-in">Sign In</a></li>
       </ul>
       <img src="whitepplogo.png" />
     </nav>
   </header>
   <body>
     <main>
-      <div id="paragraph">
-        <p>
-          Finding the perfect property shouldn't be hard. <br />Let us make it
-          easy.
-        </p>
-      </div>
+      <p class="paragraph">
+        Finding the perfect property shouldn't be hard. <br />Let us make it
+        easy.
+      </p>
     </main>
     <footer>
       <section>
-        <form action="#" class="search-bar">
+        <!-- todo need to use pseudo class before or after to position the search bar so i don't rely on positioning.  positioning was the reason why the paragraph and the hamburber box merged and looked like shit. -->
+        <form action="#">
           <label for="search"></label>
           <input
             type="search"
