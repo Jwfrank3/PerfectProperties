@@ -347,7 +347,6 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   list-style-type: none;
-  filter: brightness(75%);
   display: flex;
   justify-content: space-between;
   align-items: center;
