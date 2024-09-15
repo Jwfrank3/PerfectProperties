@@ -486,7 +486,7 @@ footer p {
     left: 0 !important;
   }
   .menu__btn {
-    position: fixed;
+    position: absolute;
     top: 20px;
     left: 20px;
     width: 26px;
@@ -515,7 +515,7 @@ footer p {
   #menu__box {
     opacity: 1;
     display: block;
-    position: fixed;
+    position: absolute;
     top: 80px;
     left: -100%;
     width: 100%;
